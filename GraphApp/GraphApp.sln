@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphApp", "GraphApp\GraphApp.csproj", "{F649E436-8DE2-49DF-9E91-CDA21CBAA340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphApp", "GraphApp\GraphApp.csproj", "{F649E436-8DE2-49DF-9E91-CDA21CBAA340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMatrixReader", "IMatrixReader\IMatrixReader.csproj", "{98715DB3-C229-4645-8D08-BB5E522925D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMatrixReader", "IMatrixReader\IMatrixReader.csproj", "{98715DB3-C229-4645-8D08-BB5E522925D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{97F1089C-4C8D-4805-9A99-42174E18A2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinSpanningTree", "MinSpanningTree\MinSpanningTree.csproj", "{9375C478-65FD-41E5-B83C-EC8B7186513A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{98715DB3-C229-4645-8D08-BB5E522925D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98715DB3-C229-4645-8D08-BB5E522925D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98715DB3-C229-4645-8D08-BB5E522925D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
