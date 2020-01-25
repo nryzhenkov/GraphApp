@@ -4,6 +4,6 @@ namespace GraphApp
 {
     public interface IMatrixReader
     {
-        public int[][] read(string path);
+        public int[,] read(string path);
     }
 }

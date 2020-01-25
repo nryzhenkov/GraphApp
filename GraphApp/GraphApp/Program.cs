@@ -7,6 +7,8 @@ namespace GraphApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            MatrixGraphReader matrix = new MatrixGraphReader();
+            matrix.read("lol.txt");
         }
     }
 }

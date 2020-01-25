@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphApp", "GraphApp\GraphA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMatrixReader", "IMatrixReader\IMatrixReader.csproj", "{98715DB3-C229-4645-8D08-BB5E522925D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{97F1089C-4C8D-4805-9A99-42174E18A2AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinSpanningTree", "MinSpanningTree\MinSpanningTree.csproj", "{9375C478-65FD-41E5-B83C-EC8B7186513A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinSpanningTree", "MinSpanningTree\MinSpanningTree.csproj", "{9375C478-65FD-41E5-B83C-EC8B7186513A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixGraphReader", "ArrayMatrixReader\MatrixGraphReader.csproj", "{475C5D68-530A-46F8-857D-34E22C0D314B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFindSpanningTree", "IFindSpanningTree\IFindSpanningTree.csproj", "{DDDBADC4-CBBF-4FF8-B621-B6DAEBE40714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +27,18 @@ Global
 		{98715DB3-C229-4645-8D08-BB5E522925D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98715DB3-C229-4645-8D08-BB5E522925D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98715DB3-C229-4645-8D08-BB5E522925D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97F1089C-4C8D-4805-9A99-42174E18A2AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9375C478-65FD-41E5-B83C-EC8B7186513A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475C5D68-530A-46F8-857D-34E22C0D314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475C5D68-530A-46F8-857D-34E22C0D314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475C5D68-530A-46F8-857D-34E22C0D314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475C5D68-530A-46F8-857D-34E22C0D314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDBADC4-CBBF-4FF8-B621-B6DAEBE40714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDBADC4-CBBF-4FF8-B621-B6DAEBE40714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDBADC4-CBBF-4FF8-B621-B6DAEBE40714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDBADC4-CBBF-4FF8-B621-B6DAEBE40714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
